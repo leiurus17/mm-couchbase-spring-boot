@@ -27,15 +27,17 @@ public class Building {
 	private String id;
 	
 	@NotNull
-	@Id
+	@Field
 	private String name;
 	
 	@NotNull
 	@Field
 	private String companyId;
 	
+	@Field
 	private List<Area> areas = new ArrayList<>();
 	
+	@Field
 	private List<String> phoneNumbers = new ArrayList<>();
 
 }
